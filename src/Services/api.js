@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react';
 
 const api = axios.create({
-    baseURL: "https://backend-eu6e.onrender.com/api"
+    baseURL: "https://backend-1-tcsf.onrender.com/api"
 });
 
 api.interceptors.request.use(
