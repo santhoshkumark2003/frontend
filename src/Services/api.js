@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react';
 
 const api = axios.create({
-    baseURL: "https://localhost:3000/api"
+    baseURL: "https://backend-1-tcsf.onrender.com/api"
 });
 
 api.interceptors.request.use(
